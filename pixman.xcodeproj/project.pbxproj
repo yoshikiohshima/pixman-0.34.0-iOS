@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDFF80311D9E128D0056051D /* pixman-access-accessors.c in Sources */ = {isa = PBXBuildFile; fileRef = BDFF80001D9E128D0056051D /* pixman-access-accessors.c */; };
+		BDFF80321D9E128D0056051D /* pixman-access.c in Sources */ = {isa = PBXBuildFile; fileRef = BDFF80011D9E128D0056051D /* pixman-access.c */; };
+		BDFF80351D9E128D0056051D /* pixman-arm-neon.c in Sources */ = {isa = PBXBuildFile; fileRef = BDFF80081D9E128D0056051D /* pixman-arm-neon.c */; };
+		BDFF80381D9E128D0056051D /* pixman-arm-simd.c in Sources */ = {isa = PBXBuildFile; fileRef = BDFF800C1D9E128D0056051D /* pixman-arm-simd.c */; };
+		BDFF80391D9E128D0056051D /* pixman-arm.c in Sources */ = {isa = PBXBuildFile; fileRef = BDFF800D1D9E128D0056051D /* pixman-arm.c */; };
+		BDFF803A1D9E128D0056051D /* pixman-bits-image.c in Sources */ = {isa = PBXBuildFile; fileRef = BDFF800E1D9E128D0056051D /* pixman-bits-image.c */; };
+		BDFF803B1D9E128D0056051D /* pixman-combine-float.c in Sources */ = {isa = PBXBuildFile; fileRef = BDFF800F1D9E128D0056051D /* pixman-combine-float.c */; };
+		BDFF803C1D9E128D0056051D /* pixman-combine32.c in Sources */ = {isa = PBXBuildFile; fileRef = BDFF80101D9E128D0056051D /* pixman-combine32.c */; };
+		BDFF803D1D9E128D0056051D /* pixman-conical-gradient.c in Sources */ = {isa = PBXBuildFile; fileRef = BDFF80131D9E128D0056051D /* pixman-conical-gradient.c */; };
+		BDFF803E1D9E128D0056051D /* pixman-edge-accessors.c in Sources */ = {isa = PBXBuildFile; fileRef = BDFF80141D9E128D0056051D /* pixman-edge-accessors.c */; };
+		BDFF803F1D9E128D0056051D /* pixman-edge.c in Sources */ = {isa = PBXBuildFile; fileRef = BDFF80161D9E128D0056051D /* pixman-edge.c */; };
+		BDFF80401D9E128D0056051D /* pixman-fast-path.c in Sources */ = {isa = PBXBuildFile; fileRef = BDFF80171D9E128D0056051D /* pixman-fast-path.c */; };
+		BDFF80411D9E128D0056051D /* pixman-filter.c in Sources */ = {isa = PBXBuildFile; fileRef = BDFF80181D9E128D0056051D /* pixman-filter.c */; };
+		BDFF80421D9E128D0056051D /* pixman-general.c in Sources */ = {isa = PBXBuildFile; fileRef = BDFF80191D9E128D0056051D /* pixman-general.c */; };
+		BDFF80431D9E128D0056051D /* pixman-glyph.c in Sources */ = {isa = PBXBuildFile; fileRef = BDFF801A1D9E128D0056051D /* pixman-glyph.c */; };
+		BDFF80441D9E128D0056051D /* pixman-gradient-walker.c in Sources */ = {isa = PBXBuildFile; fileRef = BDFF801B1D9E128D0056051D /* pixman-gradient-walker.c */; };
+		BDFF80451D9E128D0056051D /* pixman-image.c in Sources */ = {isa = PBXBuildFile; fileRef = BDFF801C1D9E128D0056051D /* pixman-image.c */; };
+		BDFF80461D9E128D0056051D /* pixman-implementation.c in Sources */ = {isa = PBXBuildFile; fileRef = BDFF801D1D9E128D0056051D /* pixman-implementation.c */; };
+		BDFF80471D9E128D0056051D /* pixman-linear-gradient.c in Sources */ = {isa = PBXBuildFile; fileRef = BDFF801F1D9E128D0056051D /* pixman-linear-gradient.c */; };
+		BDFF80481D9E128D0056051D /* pixman-matrix.c in Sources */ = {isa = PBXBuildFile; fileRef = BDFF80201D9E128D0056051D /* pixman-matrix.c */; };
+		BDFF80491D9E128D0056051D /* pixman-mips.c in Sources */ = {isa = PBXBuildFile; fileRef = BDFF80211D9E128D0056051D /* pixman-mips.c */; };
+		BDFF804A1D9E128D0056051D /* pixman-noop.c in Sources */ = {isa = PBXBuildFile; fileRef = BDFF80221D9E128D0056051D /* pixman-noop.c */; };
+		BDFF804B1D9E128D0056051D /* pixman-ppc.c in Sources */ = {isa = PBXBuildFile; fileRef = BDFF80231D9E128D0056051D /* pixman-ppc.c */; };
+		BDFF804C1D9E128D0056051D /* pixman-radial-gradient.c in Sources */ = {isa = PBXBuildFile; fileRef = BDFF80251D9E128D0056051D /* pixman-radial-gradient.c */; };
+		BDFF804E1D9E128D0056051D /* pixman-region16.c in Sources */ = {isa = PBXBuildFile; fileRef = BDFF80271D9E128D0056051D /* pixman-region16.c */; };
+		BDFF804F1D9E128D0056051D /* pixman-region32.c in Sources */ = {isa = PBXBuildFile; fileRef = BDFF80281D9E128D0056051D /* pixman-region32.c */; };
+		BDFF80501D9E128D0056051D /* pixman-solid-fill.c in Sources */ = {isa = PBXBuildFile; fileRef = BDFF80291D9E128D0056051D /* pixman-solid-fill.c */; };
+		BDFF80511D9E128D0056051D /* pixman-timer.c in Sources */ = {isa = PBXBuildFile; fileRef = BDFF802A1D9E128D0056051D /* pixman-timer.c */; };
+		BDFF80521D9E128D0056051D /* pixman-trap.c in Sources */ = {isa = PBXBuildFile; fileRef = BDFF802B1D9E128D0056051D /* pixman-trap.c */; };
+		BDFF80531D9E128D0056051D /* pixman-utils.c in Sources */ = {isa = PBXBuildFile; fileRef = BDFF802C1D9E128D0056051D /* pixman-utils.c */; };
+		BDFF80541D9E128D0056051D /* pixman-x86.c in Sources */ = {isa = PBXBuildFile; fileRef = BDFF802E1D9E128D0056051D /* pixman-x86.c */; };
+		BDFF80551D9E128D0056051D /* pixman.c in Sources */ = {isa = PBXBuildFile; fileRef = BDFF802F1D9E128D0056051D /* pixman.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BDFF7FF11D9E123D0056051D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BDFF7FF31D9E123D0056051D /* libpixman.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libpixman.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDFF7FFF1D9E128D0056051D /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		BDFF80001D9E128D0056051D /* pixman-access-accessors.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-access-accessors.c"; sourceTree = "<group>"; };
+		BDFF80011D9E128D0056051D /* pixman-access.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-access.c"; sourceTree = "<group>"; };
+		BDFF80021D9E128D0056051D /* pixman-accessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pixman-accessor.h"; sourceTree = "<group>"; };
+		BDFF80031D9E128D0056051D /* pixman-arm-asm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pixman-arm-asm.h"; sourceTree = "<group>"; };
+		BDFF80041D9E128D0056051D /* pixman-arm-common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pixman-arm-common.h"; sourceTree = "<group>"; };
+		BDFF80061D9E128D0056051D /* pixman-arm-neon-asm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pixman-arm-neon-asm.h"; sourceTree = "<group>"; };
+		BDFF80081D9E128D0056051D /* pixman-arm-neon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-arm-neon.c"; sourceTree = "<group>"; };
+		BDFF800A1D9E128D0056051D /* pixman-arm-simd-asm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pixman-arm-simd-asm.h"; sourceTree = "<group>"; };
+		BDFF800C1D9E128D0056051D /* pixman-arm-simd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-arm-simd.c"; sourceTree = "<group>"; };
+		BDFF800D1D9E128D0056051D /* pixman-arm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-arm.c"; sourceTree = "<group>"; };
+		BDFF800E1D9E128D0056051D /* pixman-bits-image.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-bits-image.c"; sourceTree = "<group>"; };
+		BDFF800F1D9E128D0056051D /* pixman-combine-float.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-combine-float.c"; sourceTree = "<group>"; };
+		BDFF80101D9E128D0056051D /* pixman-combine32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-combine32.c"; sourceTree = "<group>"; };
+		BDFF80111D9E128D0056051D /* pixman-combine32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pixman-combine32.h"; sourceTree = "<group>"; };
+		BDFF80121D9E128D0056051D /* pixman-compiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pixman-compiler.h"; sourceTree = "<group>"; };
+		BDFF80131D9E128D0056051D /* pixman-conical-gradient.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-conical-gradient.c"; sourceTree = "<group>"; };
+		BDFF80141D9E128D0056051D /* pixman-edge-accessors.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-edge-accessors.c"; sourceTree = "<group>"; };
+		BDFF80151D9E128D0056051D /* pixman-edge-imp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pixman-edge-imp.h"; sourceTree = "<group>"; };
+		BDFF80161D9E128D0056051D /* pixman-edge.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-edge.c"; sourceTree = "<group>"; };
+		BDFF80171D9E128D0056051D /* pixman-fast-path.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-fast-path.c"; sourceTree = "<group>"; };
+		BDFF80181D9E128D0056051D /* pixman-filter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-filter.c"; sourceTree = "<group>"; };
+		BDFF80191D9E128D0056051D /* pixman-general.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-general.c"; sourceTree = "<group>"; };
+		BDFF801A1D9E128D0056051D /* pixman-glyph.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-glyph.c"; sourceTree = "<group>"; };
+		BDFF801B1D9E128D0056051D /* pixman-gradient-walker.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-gradient-walker.c"; sourceTree = "<group>"; };
+		BDFF801C1D9E128D0056051D /* pixman-image.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-image.c"; sourceTree = "<group>"; };
+		BDFF801D1D9E128D0056051D /* pixman-implementation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-implementation.c"; sourceTree = "<group>"; };
+		BDFF801E1D9E128D0056051D /* pixman-inlines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pixman-inlines.h"; sourceTree = "<group>"; };
+		BDFF801F1D9E128D0056051D /* pixman-linear-gradient.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-linear-gradient.c"; sourceTree = "<group>"; };
+		BDFF80201D9E128D0056051D /* pixman-matrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-matrix.c"; sourceTree = "<group>"; };
+		BDFF80211D9E128D0056051D /* pixman-mips.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-mips.c"; sourceTree = "<group>"; };
+		BDFF80221D9E128D0056051D /* pixman-noop.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-noop.c"; sourceTree = "<group>"; };
+		BDFF80231D9E128D0056051D /* pixman-ppc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-ppc.c"; sourceTree = "<group>"; };
+		BDFF80241D9E128D0056051D /* pixman-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pixman-private.h"; sourceTree = "<group>"; };
+		BDFF80251D9E128D0056051D /* pixman-radial-gradient.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-radial-gradient.c"; sourceTree = "<group>"; };
+		BDFF80271D9E128D0056051D /* pixman-region16.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-region16.c"; sourceTree = "<group>"; };
+		BDFF80281D9E128D0056051D /* pixman-region32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-region32.c"; sourceTree = "<group>"; };
+		BDFF80291D9E128D0056051D /* pixman-solid-fill.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-solid-fill.c"; sourceTree = "<group>"; };
+		BDFF802A1D9E128D0056051D /* pixman-timer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-timer.c"; sourceTree = "<group>"; };
+		BDFF802B1D9E128D0056051D /* pixman-trap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-trap.c"; sourceTree = "<group>"; };
+		BDFF802C1D9E128D0056051D /* pixman-utils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-utils.c"; sourceTree = "<group>"; };
+		BDFF802D1D9E128D0056051D /* pixman-version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pixman-version.h"; sourceTree = "<group>"; };
+		BDFF802E1D9E128D0056051D /* pixman-x86.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "pixman-x86.c"; sourceTree = "<group>"; };
+		BDFF802F1D9E128D0056051D /* pixman.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pixman.c; sourceTree = "<group>"; };
+		BDFF80301D9E128D0056051D /* pixman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pixman.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDFF7FF01D9E123D0056051D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDFF7FEA1D9E123D0056051D = {
+			isa = PBXGroup;
+			children = (
+				BDFF7FF51D9E123D0056051D /* pixman */,
+				BDFF7FF41D9E123D0056051D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDFF7FF41D9E123D0056051D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDFF7FF31D9E123D0056051D /* libpixman.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDFF7FF51D9E123D0056051D /* pixman */ = {
+			isa = PBXGroup;
+			children = (
+				BDFF7FFF1D9E128D0056051D /* config.h */,
+				BDFF80001D9E128D0056051D /* pixman-access-accessors.c */,
+				BDFF80011D9E128D0056051D /* pixman-access.c */,
+				BDFF80021D9E128D0056051D /* pixman-accessor.h */,
+				BDFF80031D9E128D0056051D /* pixman-arm-asm.h */,
+				BDFF80041D9E128D0056051D /* pixman-arm-common.h */,
+				BDFF80061D9E128D0056051D /* pixman-arm-neon-asm.h */,
+				BDFF80081D9E128D0056051D /* pixman-arm-neon.c */,
+				BDFF800A1D9E128D0056051D /* pixman-arm-simd-asm.h */,
+				BDFF800C1D9E128D0056051D /* pixman-arm-simd.c */,
+				BDFF800D1D9E128D0056051D /* pixman-arm.c */,
+				BDFF800E1D9E128D0056051D /* pixman-bits-image.c */,
+				BDFF800F1D9E128D0056051D /* pixman-combine-float.c */,
+				BDFF80101D9E128D0056051D /* pixman-combine32.c */,
+				BDFF80111D9E128D0056051D /* pixman-combine32.h */,
+				BDFF80121D9E128D0056051D /* pixman-compiler.h */,
+				BDFF80131D9E128D0056051D /* pixman-conical-gradient.c */,
+				BDFF80141D9E128D0056051D /* pixman-edge-accessors.c */,
+				BDFF80151D9E128D0056051D /* pixman-edge-imp.h */,
+				BDFF80161D9E128D0056051D /* pixman-edge.c */,
+				BDFF80171D9E128D0056051D /* pixman-fast-path.c */,
+				BDFF80181D9E128D0056051D /* pixman-filter.c */,
+				BDFF80191D9E128D0056051D /* pixman-general.c */,
+				BDFF801A1D9E128D0056051D /* pixman-glyph.c */,
+				BDFF801B1D9E128D0056051D /* pixman-gradient-walker.c */,
+				BDFF801C1D9E128D0056051D /* pixman-image.c */,
+				BDFF801D1D9E128D0056051D /* pixman-implementation.c */,
+				BDFF801E1D9E128D0056051D /* pixman-inlines.h */,
+				BDFF801F1D9E128D0056051D /* pixman-linear-gradient.c */,
+				BDFF80201D9E128D0056051D /* pixman-matrix.c */,
+				BDFF80211D9E128D0056051D /* pixman-mips.c */,
+				BDFF80221D9E128D0056051D /* pixman-noop.c */,
+				BDFF80231D9E128D0056051D /* pixman-ppc.c */,
+				BDFF80241D9E128D0056051D /* pixman-private.h */,
+				BDFF80251D9E128D0056051D /* pixman-radial-gradient.c */,
+				BDFF80271D9E128D0056051D /* pixman-region16.c */,
+				BDFF80281D9E128D0056051D /* pixman-region32.c */,
+				BDFF80291D9E128D0056051D /* pixman-solid-fill.c */,
+				BDFF802A1D9E128D0056051D /* pixman-timer.c */,
+				BDFF802B1D9E128D0056051D /* pixman-trap.c */,
+				BDFF802C1D9E128D0056051D /* pixman-utils.c */,
+				BDFF802D1D9E128D0056051D /* pixman-version.h */,
+				BDFF802E1D9E128D0056051D /* pixman-x86.c */,
+				BDFF802F1D9E128D0056051D /* pixman.c */,
+				BDFF80301D9E128D0056051D /* pixman.h */,
+			);
+			path = pixman;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDFF7FF21D9E123D0056051D /* pixman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDFF7FFC1D9E123D0056051D /* Build configuration list for PBXNativeTarget "pixman" */;
+			buildPhases = (
+				BDFF7FEF1D9E123D0056051D /* Sources */,
+				BDFF7FF01D9E123D0056051D /* Frameworks */,
+				BDFF7FF11D9E123D0056051D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pixman;
+			productName = pixman;
+			productReference = BDFF7FF31D9E123D0056051D /* libpixman.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDFF7FEB1D9E123D0056051D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Yoshiki Ohshima";
+				TargetAttributes = {
+					BDFF7FF21D9E123D0056051D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BDFF7FEE1D9E123D0056051D /* Build configuration list for PBXProject "pixman" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BDFF7FEA1D9E123D0056051D;
+			productRefGroup = BDFF7FF41D9E123D0056051D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDFF7FF21D9E123D0056051D /* pixman */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDFF7FEF1D9E123D0056051D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFF80441D9E128D0056051D /* pixman-gradient-walker.c in Sources */,
+				BDFF80541D9E128D0056051D /* pixman-x86.c in Sources */,
+				BDFF80351D9E128D0056051D /* pixman-arm-neon.c in Sources */,
+				BDFF80421D9E128D0056051D /* pixman-general.c in Sources */,
+				BDFF80411D9E128D0056051D /* pixman-filter.c in Sources */,
+				BDFF80431D9E128D0056051D /* pixman-glyph.c in Sources */,
+				BDFF80471D9E128D0056051D /* pixman-linear-gradient.c in Sources */,
+				BDFF80531D9E128D0056051D /* pixman-utils.c in Sources */,
+				BDFF804C1D9E128D0056051D /* pixman-radial-gradient.c in Sources */,
+				BDFF80491D9E128D0056051D /* pixman-mips.c in Sources */,
+				BDFF804E1D9E128D0056051D /* pixman-region16.c in Sources */,
+				BDFF803D1D9E128D0056051D /* pixman-conical-gradient.c in Sources */,
+				BDFF80321D9E128D0056051D /* pixman-access.c in Sources */,
+				BDFF803C1D9E128D0056051D /* pixman-combine32.c in Sources */,
+				BDFF80551D9E128D0056051D /* pixman.c in Sources */,
+				BDFF80501D9E128D0056051D /* pixman-solid-fill.c in Sources */,
+				BDFF80401D9E128D0056051D /* pixman-fast-path.c in Sources */,
+				BDFF804A1D9E128D0056051D /* pixman-noop.c in Sources */,
+				BDFF80311D9E128D0056051D /* pixman-access-accessors.c in Sources */,
+				BDFF804F1D9E128D0056051D /* pixman-region32.c in Sources */,
+				BDFF803E1D9E128D0056051D /* pixman-edge-accessors.c in Sources */,
+				BDFF80461D9E128D0056051D /* pixman-implementation.c in Sources */,
+				BDFF80521D9E128D0056051D /* pixman-trap.c in Sources */,
+				BDFF803B1D9E128D0056051D /* pixman-combine-float.c in Sources */,
+				BDFF803A1D9E128D0056051D /* pixman-bits-image.c in Sources */,
+				BDFF80381D9E128D0056051D /* pixman-arm-simd.c in Sources */,
+				BDFF80391D9E128D0056051D /* pixman-arm.c in Sources */,
+				BDFF80511D9E128D0056051D /* pixman-timer.c in Sources */,
+				BDFF803F1D9E128D0056051D /* pixman-edge.c in Sources */,
+				BDFF80451D9E128D0056051D /* pixman-image.c in Sources */,
+				BDFF804B1D9E128D0056051D /* pixman-ppc.c in Sources */,
+				BDFF80481D9E128D0056051D /* pixman-matrix.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BDFF7FFA1D9E123D0056051D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"HAVE_CONFIG_H=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = pixman;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BDFF7FFB1D9E123D0056051D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "HAVE_CONFIG_H=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = pixman;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDFF7FFD1D9E123D0056051D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BDFF7FFE1D9E123D0056051D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDFF7FEE1D9E123D0056051D /* Build configuration list for PBXProject "pixman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDFF7FFA1D9E123D0056051D /* Debug */,
+				BDFF7FFB1D9E123D0056051D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDFF7FFC1D9E123D0056051D /* Build configuration list for PBXNativeTarget "pixman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDFF7FFD1D9E123D0056051D /* Debug */,
+				BDFF7FFE1D9E123D0056051D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDFF7FEB1D9E123D0056051D /* Project object */;
+}
